@@ -132,4 +132,6 @@ Example:
 http://localhost:3000/shiftflow/v1/api/stores/69b1892f49430edf4e91fa12/users
 ```
 
-Use the **store ObjectId** returned from the **Get All Stores** API.
+Use the **store ObjectId** returned from the **Get All Stores** API as the store_id.
+
+Use the **login token as Bearer Token**.
