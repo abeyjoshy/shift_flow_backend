@@ -43,8 +43,8 @@ Body:
 ```json
 {
   "store_name": "Eyre Square Branch",
-  "email": "eyresquare@daybreak.com",
-  "password": "EyreSquare@123",
+  "email": "<Type your email>",
+  "password": "<Type your password>",
   "is_active": true
 }
 ```
@@ -65,9 +65,9 @@ Body:
 {
   "store_id": "69b1892f49430edf4e91fa12",
   "name": "Abey Joshy",
-  "email": "abeyjoshy@email.com",
+  "email": "<Type your email>",
   "username": "abey",
-  "password": "Abey@123"
+  "password": "<Type your Pasword>"
 }
 ```
 
@@ -88,7 +88,7 @@ Body:
 ```json
 {
   "username": "abey",
-  "password": "Abey@123"
+  "password": "<Type your password>"
 }
 ```
 
@@ -99,7 +99,7 @@ Sample Response:
   "status": "SUCCESS",
   "message": "Successfully generated token",
   "payLoad": {
-    "token": "JWT_TOKEN"
+    "token": "<JWT_TOKEN>"
   }
 }
 ```
