@@ -9,9 +9,11 @@ const mongo_db = process.env.MONGO_DB;
 const mongo_user = process.env.MONGO_USER;
 const mongo_pass = encodeURIComponent(process.env.MONGO_PASSWORD);
 
-// const uri = `mongodb://${mongo_user}:${mongo_pass}@${mongo_host}:${mongo_port}/${mongo_db}?authSource=admin`;
+//const uri = `mongodb://${mongo_user}:${mongo_pass}@${mongo_host}:${mongo_port}/${mongo_db}?authSource=admin`;
 
-const uri = `mongodb://${mongo_host}:${mongo_port}/${mongo_db}`;
+const uri = `mongodb+srv://tirthnppatel2001_db_user:Tirth2001@cluster0.l02y2kf.mongodb.net/shift_flow?appName=Cluster0`;
+
+//const uri = `mongodb://${mongo_host}:${mongo_port}/${mongo_db}`;
 
 // Create mongooseClient object similar to Redis client structure
 const mongooseClient = {
